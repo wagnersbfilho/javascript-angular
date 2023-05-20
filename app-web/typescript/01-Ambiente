@@ -1,0 +1,32 @@
+Congiguração de ambiente:
+- Instalar Node
+- Instalar Angular
+    -> npm install -g typescript (global)
+    -> npm install typescript -D (local, apenas no projeto)
+    -> criar src/index.ts
+
+- Executar
+    -> npx tsc src/index.ts ("transpila" arquivo .ts paras .js)
+
+- Configuração TSConfig
+    -> npx tsc --init (para criar tsconfig.json)
+    -> site oficial: Typescript TSConfig Reference
+    -> Editar tsconfig.json
+        - rootDir: indicar diretório raiz para compilação de .ts
+        - outDir: indicar diretório de output dos arquivos trasnpilados em .js
+        - experimentalDecorators: habilitar para utilização de Decorators
+    -> Para compilar, executar apenas "npx tsc"
+
+- Arquivo Configuração
+    -> package.json
+        - criar um novo script: "start": "npx tsc && node build/index.js" (compilar/executar)
+        - comando: npm run start
+
+- TS Node Dev (servidor local)
+    -> para facilitar execução e geração de build (no lugar de npm run start)
+    -> instalar: npm ts-node-dev
+    -> não gera output em /build (servidor já resolve)
+    -> package.json
+        - criar um novo script: "start:dev": ""ts-node-dev --respawn --transpile-only src/index.ts" (compilar/executar)
+        - comando: npm run start:dev
+

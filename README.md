@@ -4,7 +4,8 @@
 - Node v16.13.1
 - http-server
 
-<b>Conceitos aplicados</b>
+<b>Conceitos aplicados:</b>
 - Javascript 
     - Web Components 
+- Typescript
 
