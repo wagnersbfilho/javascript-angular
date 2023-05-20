@@ -1,0 +1,11 @@
+DOM - Document Object Model
+    - hierarquia dos elementos HTML
+
+Shadow DOM
+    - Encapsulamento de elementos -> components
+    - Consultar site "can i use" para verificar compatibilidade de Shadow DOM com browsers
+    - Components -> elementos + style + propriedades
+    - 3 passos (scoped - só existe dentro do componente):
+        01 - base do componente
+        02 - estilizar o componente
+        03 - enviar para a Shadow

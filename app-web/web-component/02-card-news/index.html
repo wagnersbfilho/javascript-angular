@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notícias</title>
+    <link rel="stylesheet" href="assets/styles/card.css">
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
+</head>
+<body>
+    <div class="app-root">
+        <card-news
+            autor="Wagner"
+            titulo="Empresa XYZ Contrata"
+            conteudo="Contratação de profissionais para oportunidade Frontend"
+            url="http://www.google.com"
+            imagem="vaga.jpg">
+        </card-news>
+
+        <card-news
+                titulo="Divulgação de vagas"
+                conteudo="Vária vagas disponivels, acesse o link do titulo!"
+                url="http://dio.me">
+        </card-news>
+
+        <titulo-dinamico titulo="Minha Notícia..."></titulo-dinamico>
+        <titulo-dinamico titulo="Minha Notícia 2..."></titulo-dinamico>
+    </div>
+</body>
+</html>
