@@ -1,8 +1,10 @@
-# Aplicação responsiva Javascript/Node
+# Cases com Javascript / Typescrpit / Angular
 
 <b>Requisitos:</b>
 - Node v16.13.1
 - http-server
 
 <b>Conceitos aplicados:</b>
-- Web Components 
+- Javascript 
+    - Web Components 
+
