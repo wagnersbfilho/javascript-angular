@@ -8,5 +8,5 @@
 - Javascript 
     - Web Components 
 - Typescript
-- Angular 15
+- Angular 16
 
